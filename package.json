@@ -1,16 +1,17 @@
 {
-  "dependencies": {
-    "prompt-sync": "^4.2.0"
-  },
   "name": "password-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple password generator in Node.js",
   "main": "main.js",
-  "devDependencies": {},
+  "type": "module",
   "scripts": {
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }

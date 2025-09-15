@@ -1,2 +1,16 @@
-# password-generator
-Un générateur de mots de passe en Node.js.   L’utilisateur choisit la longueur du mot de passe (entre 8 et 64 caractères),   et le programme génère un mot de passe aléatoire composé de lettres, chiffres et symboles.
+# Password Generator
+
+A simple password generator built with JavaScript and Node.js.
+
+## How it works
+- The user chooses the password length (between 8 and 64 characters).
+- The program generates a random password including uppercase letters, lowercase letters, numbers, and symbols.
+- The result is printed to the console.
+
+## Requirements
+- Node.js
+- The package `prompt-sync`
+
+## Installation
+```bash
+npm install
