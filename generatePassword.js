@@ -1,9 +1,10 @@
-import NumChars  from "./askUser.js"
-export default function generatorRandom() {
-    const lengthUser = NumChars();
-    if (lengthUser === null) {
-        return null; 
+
+export default function generatorRandom(nombre) {
+    const lengthUser = nombre;
+    if (lengthUser === null) {      
+      return null; 
     }
+    
     const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+";
     let password = "";
 
